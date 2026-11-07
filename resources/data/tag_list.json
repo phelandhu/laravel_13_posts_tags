@@ -1,0 +1,31 @@
+{
+    "data": [
+        { "id": 1, "name": "Fantasy", "description": "A fantasy genre" },
+        { "id": 2, "name": "Science Fiction", "description": "A science fiction genre" },
+        { "id": 3, "name": "Military", "description": "A military genre" },
+        { "id": 4, "name": "Romance", "description": "A romance genre" },
+        { "id": 5, "name": "Horror", "description": "A horror genre" },
+        { "id": 6, "name": "Mystery", "description": "A mystery genre" },
+        { "id": 7, "name": "Thriller", "description": "A thriller genre" },
+        { "id": 8, "name": "Western", "description": "A western genre" },
+        { "id": 9, "name": "Historical Fiction", "description": "A historical fiction genre" },
+        { "id": 10, "name": "Young Adult", "description": "A young adult genre" },
+        { "id": 11, "name": "American Gothic Fiction", "description": "American gothic fiction genre" },
+        { "id": 12, "name": "HFY", "description": "Humanity Frak yeah" },
+        { "id": 13, "name": "Cyberpunk", "description": "A cyberpunk genre" },
+        { "id": 14, "name": "Steampunk", "description": "A steampunk genre" },
+        { "id": 15, "name": "Dystopian", "description": "A dystopian genre" },
+        { "id": 16, "name": "Post-Apocalyptic", "description": "A post-apocalyptic genre" },
+        { "id": 17, "name": "Space Opera", "description": "A space opera genre" },
+        { "id": 18, "name": "Time Travel", "description": "A time travel genre" },
+        { "id": 19, "name": "Alternate History", "description": "An alternate history genre" },
+        { "id": 20, "name": "Superhero", "description": "A superhero genre" },
+        { "id": 21, "name": "Urban Fantasy", "description": "An urban fantasy genre" },
+        { "id": 22, "name": "Paranormal Romance", "description": "A paranormal romance genre" },
+        { "id": 23, "name": "Epic Fantasy", "description": "An epic fantasy genre" },
+        { "id": 24, "name": "Sword and Sorcery", "description": "A sword and sorcery genre" },
+        { "id": 25, "name": "High Fantasy", "description": "A high fantasy genre" },
+        { "id": 26, "name": "Adventure", "description": "An adventure genre" },
+        { "id": 27, "name": "Action", "description": "A daring deeds type of genre" }
+    ]
+}

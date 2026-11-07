@@ -1,0 +1,58 @@
+/* Reset some defaults */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Fixed header */
+.page-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Body with two columns */
+.page-body {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Column styles */
+.column {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Left column styling */
+.left-column {
+  background-color: #f4f4f4;
+}
+
+/* Right column styling */
+.right-column {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 768px) {
+  .page-body {
+    flex-direction: column;
+  }
+  .right-column {
+    border-left: none;
+    border-top: 1px solid #ddd;
+  }
+}
