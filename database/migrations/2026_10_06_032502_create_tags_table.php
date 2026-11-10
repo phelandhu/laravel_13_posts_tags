@@ -16,7 +16,9 @@ return new class extends Migration
             $table->string('name')->unique();
             $table->string('description');
             $table->string('slug')->unique();
-            $table->string('description');
+            $table->boolean('is_active')->default(true); // This is for tags that are or aren't active, if a tag is not active, it and the stories associated with it won't be shown in the frontend.
+            $table->boolean('is_hidden')->default(false); // This is for tags that are or aren't hidden, if a tag is hidden, it won't be shown in the frontend.
+            $table->boolean('is_frontpage')->default(false); // This is for tags that are for logged-in users only. So it won't be shown on the front page, but will be shown on the dashboard for logged-in users.
             $table->timestamps();
         });
     }

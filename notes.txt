@@ -1,0 +1,6 @@
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, with a PoE Module
+https://www.amazon.com/dp/B0GTF7KPZJ?lv=shuf&hvlocphy=74315&linkCode=df0&psc=1&hvnetw=a&hvlocint=&hvdev=c&hvadid=79989692611850&hvqmt=e&tag=bingshoppinga-20&hvbmt=be&hvtargid=&channelId=69&ref_=asc_df_B0GTF7KPZJ&plpRedirect=mhFallback
+
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, Board Only, Standard Version
+https://www.amazon.com/dp/B0FMJH1XTB?lv=shuf&hvlocphy=74315&linkCode=df0&psc=1&hvnetw=a&hvlocint=&hvdev=c&hvadid=79989692611850&hvqmt=e&tag=bingshoppinga-20&hvbmt=be&hvtargid=&channelId=69&ref_=asc_df_B0FMJH1XTB&plpRedirect=mhFallback
+
