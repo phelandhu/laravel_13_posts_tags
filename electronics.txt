@@ -1,0 +1,39 @@
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, with a PoE Module
+https://www.amazon.com/dp/B0GTF7KPZJ
+
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, Board Only, Standard Version
+https://www.amazon.com/dp/B0FMJH1XTB
+
+waveshare ESP32-S3 1.85inch Round Touch Display Development Board 360×360 Resolution 262K Color LCD Screen, 32-bit LX7 Dual-core Processor,Supports WiFi & Bluetooth
+https://www.amazon.com/dp/B0DK6NH65T
+
+Waveshare ESP32-S3 3.5inch Capacitive Touch Display Development Board Type B, 320×480 Pixels, IPS Panel, 262K Color, QSPI, Onboard Camera Interface, Supports Wi-Fi and Bluetooth 5, ESP32 with Display
+https://www.amazon.com/dp/B0FB2L8V8S
+
+ESP32 Breakout Board GPIO 1 into 2 Compatible with 30 Pins ESP32S ESP32
+https://www.amazon.com/dp/B0BNQ8V65G
+
+ESP32-S3 5inch Capacitive Touch LCD Development Board 1024×600 Solution IPS Display with 2.4GHz WiFi and BLE 5 Support,32-bit LX7 Dual-core Processor
+https://www.amazon.com/dp/B0DF76QQZ6
+
+ESP32-S3 1.47inch LCD Display Development Board with Pre-Soldered Header, 172x320 Resolution, 262K Display Color, Supports 2.4GHz Wi-Fi/BLE 5, 240MHz LX7 Dual-Core Processor, ESP32 with Display
+https://www.amazon.com/dp/B0FC6T8DT4
+
+ESP32-S3-Nano Development Board Based on ESP32-S3R8 Chip with 32-bit LX7 Dual-Core Processor, Integrated 2.4GHz W-i-Fi+Blue-toot-h Dual-Mode Communication, Compatible with Arduino Nano ESP32
+https://www.amazon.com/dp/B0D2P1XPGM
+
+ESP32 Development Board 3.5" LCD Display Screen 320X480 Resolution ESP32-32 WiFi Smart Display Screen 3.5inch LCD TFT Module Resistive Touch for Arduino IDE, ESP IDE, Micropython and Mixly
+https://www.amazon.com/dp/B0D8TC4RM8
+
+2 in 1 Bluetooth V5.3 Transmitter Receiver, BT USB Adapter
+https://www.amazon.com/dp/B0BKGXFJY4
+
+LILYGO T-Display-S3 ESP32-S3 TTGO Development Board
+https://www.amazon.com/dp/B0C2T6DP5J
+
+CME WIDI Core N Bluetooth MIDI Breakout Board
+https://www.amazon.com/dp/B0BBW9JR7H
+
+
+Yahboom AI Voice Recognition Module Voice Broadcast Integrated Custom Wake-up Word Programmable Sound Sensor Support Jetson/Raspberry Pi/ESP32/STM32
+https://www.amazon.com/dp/B0F2YX26W1
