@@ -1,7 +1,7 @@
 import { queryParams, type RouteQueryOptions, type RouteDefinition, type RouteFormDefinition } from './../../wayfinder'
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 export const front = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -16,7 +16,7 @@ front.definition = {
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front.url = (options?: RouteQueryOptions) => {
@@ -25,7 +25,7 @@ front.url = (options?: RouteQueryOptions) => {
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -35,7 +35,7 @@ front.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
@@ -45,7 +45,7 @@ front.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 const frontForm = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -55,7 +55,7 @@ const frontForm = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => (
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 frontForm.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -65,7 +65,7 @@ frontForm.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
 
 /**
 * @see \App\Http\Controllers\TagController::front
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 frontForm.head = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({

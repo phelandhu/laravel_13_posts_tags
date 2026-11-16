@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('tags', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
+            $table->string('title')->unique();
             $table->string('description');
             $table->boolean('is_active')->default(true); // This is for tags that are or aren't active, if a tag is not active, it and the stories associated with it won't be shown in the frontend.
             $table->boolean('is_hidden')->default(false); // This is for tags that are or aren't hidden, if a tag is hidden, it won't be shown in the frontend.

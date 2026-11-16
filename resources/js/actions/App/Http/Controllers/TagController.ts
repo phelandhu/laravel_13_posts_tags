@@ -1,7 +1,7 @@
 import { queryParams, type RouteQueryOptions, type RouteDefinition, type RouteFormDefinition } from './../../../../wayfinder'
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 export const front_tags = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -16,7 +16,7 @@ front_tags.definition = {
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front_tags.url = (options?: RouteQueryOptions) => {
@@ -25,7 +25,7 @@ front_tags.url = (options?: RouteQueryOptions) => {
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front_tags.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -35,7 +35,7 @@ front_tags.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front_tags.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
@@ -45,7 +45,7 @@ front_tags.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 const front_tagsForm = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -55,7 +55,7 @@ const front_tagsForm = (options?: RouteQueryOptions): RouteFormDefinition<'get'>
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front_tagsForm.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -65,7 +65,7 @@ front_tagsForm.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> =
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:10
+* @see app/Http/Controllers/TagController.php:11
 * @route '/api/tags'
 */
 front_tagsForm.head = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
 use App\Models\Tag;
 use Illuminate\Http\Request;
@@ -18,9 +19,11 @@ Route::get('/users', function () {
 Route::get('/tags', [TagController::class, 'front_tags'])
     ->name('tags.front');
 
-Route::get('/tags/list', function () {
-    return Tag::getTagFrontPage();
-});
+    
+Route::get('/stories', [PostController::class, 'front_stories']);
+
+
+
 /*
     Route::post('/posts/{post}/publish', [PostController::class, 'publish'])
     ->name('posts.publish');

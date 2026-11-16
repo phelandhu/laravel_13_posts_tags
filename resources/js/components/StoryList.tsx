@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
 import story_list from '../../data/story_list.json';
 import StoryTag from './Tag';
 
@@ -10,7 +12,19 @@ interface Story {
 }
 
 function StoryList() {
-    const stories: Story[] = story_list.data;
+//    const stories: Story[] = story_list.data;
+  const [stories, setStories] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const loadStories = async () => {
+      setLoading(true);
+      const res = await axios.get("http://localhost:8000/api/stories");
+      setStories(res.data);
+      setLoading(false);
+    };
+    loadStories();
+  }, []);
 
     return (
         <>
@@ -18,7 +32,7 @@ function StoryList() {
                 {stories.map((story) => (
                 <article className="card" key={story.id}>
                     <div>
-                        <span><a href={`/story/${story.id}`}>{story.name}</a></span> - {story.description}
+                        <span><a href={`/story/${story.id}`}>{story.title}</a></span> - {story.description}
                     </div>
                     {story.tags.map((tag) => (
                         <StoryTag key={tag.id} tag={tag} />
