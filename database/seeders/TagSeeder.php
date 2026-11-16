@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Tag;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,36 +14,44 @@ class TagSeeder extends Seeder
     public function run(): void
     {
         Tag::factory()->create([
-            "name"=>"Fantasy",
+            "name"=>"Action", 
+            "description"=>"A daring deeds type of genre"
+        ]);
+        Tag::factory()->create([
+            "name"=>"Adventure", 
+            "description"=>"An adventure genre"
+        ]);
+        Tag::factory()->create([
+            "name"=>"Fantasy", 
             "description"=>"A fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Fantasy",
-            "description"=>"A fantasy genre"
+            "name"=>"Science Fiction", 
+            "description"=>"A science fiction genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Fantasy", "description"=>"A fantasy genre"
+            "name"=>"Military", 
+            "description"=>"A military genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Science Fiction", "description"=>"A science fiction genre"
+            "name"=>"Romance", 
+            "description"=>"A romance genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Military", "description"=>"A military genre"
+            "name"=>"Horror", 
+            "description"=>"A horror genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Romance", "description"=>"A romance genre"
+            "name"=>"Mystery", 
+            "description"=>"A mystery genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Horror", "description"=>"A horror genre"
+            "name"=>"Thriller", 
+            "description"=>"A thriller genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Mystery", "description"=>"A mystery genre"
-        ]);
-        Tag::factory()->create([
-            "name"=>"Thriller", "description"=>"A thriller genre"
-        ]);
-        Tag::factory()->create([
-            "name"=>"Western", "description"=>"A western genre"
+            "name"=>"Western", 
+            "description"=>"A western genre"
         ]);
         Tag::factory()->create([
             "name"=>"Historical Fiction", "description"=>"A historical fiction genre"
@@ -96,11 +105,21 @@ class TagSeeder extends Seeder
             "name"=>"High Fantasy", "description"=>"A high fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Adventure", "description"=>"An adventure genre"
+            "name"=>"Hidden", 
+            "description"=>"A hidden genre",
+            "is_hidden"=>true
         ]);
         Tag::factory()->create([
-            "name"=>"Action", "description"=>"A daring deeds type of genre"
+            "name"=>"Masked", 
+            "description"=>"Masked from front page",
+            "is_front_page_mask"=>true
         ]);
+        Tag::factory()->create([
+            "name"=>"Inactive", 
+            "description"=>"Inactive tag",
+            "is_active"=>false
+        ]);
+
 
     }
 }
