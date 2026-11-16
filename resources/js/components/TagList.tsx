@@ -1,14 +1,20 @@
-import tag_list from '../../data/tag_list.json';
+import { useState, useEffect } from "react";
+import axios from "axios";
 import StoryTag from './Tag';
 
-interface Tag {
-    id: number;
-    name: string;
-    description: string;
-}
-
 function TagList() {
-    const tags: Tag[] = tag_list.data;
+  const [tags, setTags] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const loadTags = async () => {
+      setLoading(true);
+      const res = await axios.get("http://localhost:8000/api/tags");
+      setTags(res.data);
+      setLoading(false);
+    };
+    loadTags();
+  }, []);
 
     return (
         <>
@@ -17,10 +23,10 @@ function TagList() {
                     <h2>Story Tags</h2>
                 </div>
                 <div id="menu_list" className="my_tags">
-                    {tags.map((tag) => (
-                        <p key={tag.id}>
+                    {loading ? <p>Loading...</p> : tags.map((tag) => (
+                        <div key={tag.id}>
                         <StoryTag key={tag.id} tag={tag} />
-                        </p>
+                        </div>
                     ))}
                 </div>
             </aside>

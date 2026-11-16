@@ -14,108 +14,108 @@ class TagSeeder extends Seeder
     public function run(): void
     {
         Tag::factory()->create([
-            "name"=>"Action", 
+            "title"=>"Action", 
             "description"=>"A daring deeds type of genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Adventure", 
+            "title"=>"Adventure", 
             "description"=>"An adventure genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Fantasy", 
+            "title"=>"Fantasy", 
             "description"=>"A fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Science Fiction", 
+            "title"=>"Science Fiction", 
             "description"=>"A science fiction genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Military", 
+            "title"=>"Military", 
             "description"=>"A military genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Romance", 
+            "title"=>"Romance", 
             "description"=>"A romance genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Horror", 
+            "title"=>"Horror", 
             "description"=>"A horror genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Mystery", 
+            "title"=>"Mystery", 
             "description"=>"A mystery genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Thriller", 
+            "title"=>"Thriller", 
             "description"=>"A thriller genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Western", 
+            "title"=>"Western", 
             "description"=>"A western genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Historical Fiction", "description"=>"A historical fiction genre"
+            "title"=>"Historical Fiction", "description"=>"A historical fiction genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Young Adult", "description"=>"A young adult genre"
+            "title"=>"Young Adult", "description"=>"A young adult genre"
         ]);
         Tag::factory()->create([
-            "name"=>"American Gothic Fiction", "description"=>"American gothic fiction genre"
+            "title"=>"American Gothic Fiction", "description"=>"American gothic fiction genre"
         ]);
         Tag::factory()->create([
-            "name"=>"HFY", "description"=>"Humanity Frak yeah"
+            "title"=>"HFY", "description"=>"Humanity Frak yeah"
         ]);
         Tag::factory()->create([
-            "name"=>"Cyberpunk", "description"=>"A cyberpunk genre"
+            "title"=>"Cyberpunk", "description"=>"A cyberpunk genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Steampunk", "description"=>"A steampunk genre"
+            "title"=>"Steampunk", "description"=>"A steampunk genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Dystopian", "description"=>"A dystopian genre"
+            "title"=>"Dystopian", "description"=>"A dystopian genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Post-Apocalyptic", "description"=>"A post-apocalyptic genre"
+            "title"=>"Post-Apocalyptic", "description"=>"A post-apocalyptic genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Space Opera", "description"=>"A space opera genre"
+            "title"=>"Space Opera", "description"=>"A space opera genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Time Travel", "description"=>"A time travel genre"
+            "title"=>"Time Travel", "description"=>"A time travel genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Alternate History", "description"=>"An alternate history genre"
+            "title"=>"Alternate History", "description"=>"An alternate history genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Superhero", "description"=>"A superhero genre"
+            "title"=>"Superhero", "description"=>"A superhero genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Urban Fantasy", "description"=>"An urban fantasy genre"
+            "title"=>"Urban Fantasy", "description"=>"An urban fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Paranormal Romance", "description"=>"A paranormal romance genre"
+            "title"=>"Paranormal Romance", "description"=>"A paranormal romance genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Epic Fantasy", "description"=>"An epic fantasy genre"
+            "title"=>"Epic Fantasy", "description"=>"An epic fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Sword and Sorcery", "description"=>"A sword and sorcery genre"
+            "title"=>"Sword and Sorcery", "description"=>"A sword and sorcery genre"
         ]);
         Tag::factory()->create([
-            "name"=>"High Fantasy", "description"=>"A high fantasy genre"
+            "title"=>"High Fantasy", "description"=>"A high fantasy genre"
         ]);
         Tag::factory()->create([
-            "name"=>"Hidden", 
+            "title"=>"Hidden", 
             "description"=>"A hidden genre",
             "is_hidden"=>true
         ]);
         Tag::factory()->create([
-            "name"=>"Masked", 
+            "title"=>"Masked", 
             "description"=>"Masked from front page",
             "is_front_page_mask"=>true
         ]);
         Tag::factory()->create([
-            "name"=>"Inactive", 
+            "title"=>"Inactive", 
             "description"=>"Inactive tag",
             "is_active"=>false
         ]);

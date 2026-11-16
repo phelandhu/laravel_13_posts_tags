@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
@@ -25,5 +26,10 @@ class Post extends Model
     // Helper to get average rating
     public function averageRating() {
         return $this->ratings()->avg('rating') ?? 0;
+    }
+
+    public function getFrontPageStories(): Collection
+    {
+        return $this->where('is_active', true)->get(['id', 'title', 'description', 'body']);
     }
 }
