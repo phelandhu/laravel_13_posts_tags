@@ -17,5 +17,25 @@ class PostTagSeeder extends Seeder
             "post_id"=> 1, 
             "tag_id"=> 1
         ]);
+        PostTag::factory()->create([
+            "post_id"=> 1, 
+            "tag_id"=> 2
+        ]);
+        PostTag::factory()->create([
+            "post_id"=> 1, 
+            "tag_id"=> 4
+        ]);
+        PostTag::factory()->create([
+            "post_id"=> 1, 
+            "tag_id"=> 5
+        ]);
+        PostTag::factory()->create([
+            "post_id"=> 2, 
+            "tag_id"=> 7
+        ]);
+        PostTag::factory()->create([
+            "post_id"=> 2, 
+            "tag_id"=> 13
+        ]);
     }
 }

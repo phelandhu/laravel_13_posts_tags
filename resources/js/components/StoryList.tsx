@@ -29,12 +29,14 @@ function StoryList() {
     return (
         <>
             <div className="cards">                        
-                {stories.map((story) => (
+                {console.log(stories.data)}
+                {
+                loading ? <p>Loading...</p> : Array.isArray(stories.data) && stories.data.map((story) => (
                 <article className="card" key={story.id}>
                     <div>
                         <span><a href={`/story/${story.id}`}>{story.title}</a></span> - {story.description}
                     </div>
-                    {story.tags.map((tag) => (
+                    {Array.isArray(story.tags) && story.tags.map((tag) => (
                         <StoryTag key={tag.id} tag={tag} />
                     ))}
                 </article>
