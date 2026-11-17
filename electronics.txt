@@ -1,14 +1,4 @@
-Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, with a PoE Module
-https://www.amazon.com/dp/B0GTF7KPZJ
 
-Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, Board Only, Standard Version
-https://www.amazon.com/dp/B0FMJH1XTB
-
-waveshare ESP32-S3 1.85inch Round Touch Display Development Board 360×360 Resolution 262K Color LCD Screen, 32-bit LX7 Dual-core Processor,Supports WiFi & Bluetooth
-https://www.amazon.com/dp/B0DK6NH65T
-
-Waveshare ESP32-S3 3.5inch Capacitive Touch Display Development Board Type B, 320×480 Pixels, IPS Panel, 262K Color, QSPI, Onboard Camera Interface, Supports Wi-Fi and Bluetooth 5, ESP32 with Display
-https://www.amazon.com/dp/B0FB2L8V8S
 
 ESP32 Breakout Board GPIO 1 into 2 Compatible with 30 Pins ESP32S ESP32
 https://www.amazon.com/dp/B0BNQ8V65G
@@ -18,6 +8,15 @@ https://www.amazon.com/dp/B0DF76QQZ6
 
 ESP32-S3 1.47inch LCD Display Development Board with Pre-Soldered Header, 172x320 Resolution, 262K Display Color, Supports 2.4GHz Wi-Fi/BLE 5, 240MHz LX7 Dual-Core Processor, ESP32 with Display
 https://www.amazon.com/dp/B0FC6T8DT4
+
+ESP32-S3 1.46inch Round Touch Display Development Board, IPS Display Panel, 412×412 Pixel, Accelerometer and Gyroscope Sensor, Onboard Speaker and Microphone, ESP32 with Display, with Cover Glass
+https://www.amazon.com/dp/B0DRNVNY3C
+
+ESP32-S3 3.5inch Capacitive Touch Display Dev Board with Case,IPS Screen
+https://www.amazon.com/dp/B0F9W5JM2M
+
+ESP32-S3 4.3inch LCD Touch Screen Development Board onboard 800×480 65K RGB Screen 5-Point Touch Display with Case, Support 2.4GHz Wi-Fi & Bluetooth 5, 32-Bit LX7 Dual-Core Processor
+https://www.amazon.com/dp/B0DJR71HGG
 
 ESP32-S3-Nano Development Board Based on ESP32-S3R8 Chip with 32-bit LX7 Dual-Core Processor, Integrated 2.4GHz W-i-Fi+Blue-toot-h Dual-Mode Communication, Compatible with Arduino Nano ESP32
 https://www.amazon.com/dp/B0D2P1XPGM
@@ -34,6 +33,42 @@ https://www.amazon.com/dp/B0C2T6DP5J
 CME WIDI Core N Bluetooth MIDI Breakout Board
 https://www.amazon.com/dp/B0BBW9JR7H
 
-
 Yahboom AI Voice Recognition Module Voice Broadcast Integrated Custom Wake-up Word Programmable Sound Sensor Support Jetson/Raspberry Pi/ESP32/STM32
 https://www.amazon.com/dp/B0F2YX26W1
+
+Diann 4pcs MP3 Voice Playback Module DY-SV5W Player Music Voice Board IO Trigger UART Serial Adapter Control Playback Module Sound Board Amplifier Board Support 32G Card
+https://www.amazon.com/dp/B0CG6CL2SC
+
+3 Pack Pro Micro Board Module At mega 32U4 5V 16MHz USB Programming Development Board Micro-Controller Compatible with Ar duino IDE (with Pin Header)
+https://www.amazon.com/dp/B0D83FBYPD
+
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, with a PoE Module
+https://www.amazon.com/dp/B0GTF7KPZJ
+
+Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, Board Only, Standard Version
+https://www.amazon.com/dp/B0FMJH1XTB
+
+waveshare ESP32-S3 1.85inch Round Touch Display Development Board 360×360 Resolution 262K Color LCD Screen, 32-bit LX7 Dual-core Processor,Supports WiFi & Bluetooth
+https://www.amazon.com/dp/B0DK6NH65T
+
+Waveshare ESP32-S3 3.5inch Capacitive Touch Display Development Board Type B, 320×480 Pixels, IPS Panel, 262K Color, QSPI, Onboard Camera Interface, Supports Wi-Fi and Bluetooth 5, ESP32 with Display
+https://www.amazon.com/dp/B0FB2L8V8S
+
+Waveshare 4.3inch Capacitive Touch Display Compatible with Raspberry Pi 4B Comes with Protection Case 800×480 Resolution IPS Wide Angle MIPI DSI Interface
+https://www.amazon.com/dp/B08LH5MFVS
+
+Waveshare ESP32-S3 7inch Capacitive Touch Screen Development Board 800×480 Resolution 7 inch 65K RGB LCD Disply,5-Point Touch,Supports WiFi & Bluetooth
+https://www.amazon.com/dp/B0D6XSY476
+
+
+Audio DAC Hat Sound Card (Audio+V3) for Raspberry PI5 / PI4 / Pi Zero / PI3 / PI3B / PI3B+ / Better Quality Than USB
+https://www.amazon.com/dp/B09T33LJQM
+
+TypeScript for Beginners 2026: The Complete Step-by-Step Guide to TypeScript 5.x (The Beginner's Tech Library)
+https://www.amazon.com/dp/B0HH4132ND
+
+waveshare Micro HDMI to HDMI Multifunctional Adapter, Compatible with Raspberry Pi 5/4B, Dual 4K Outputs, Power Via Type-C Port or Screw Terminal
+https://www.amazon.com/dp/B0D5VBSKF4
+
+5-Pack Bluetooth 5.0 MP3 Decoder Board, USB-C, 12V
+https://www.amazon.com/dp/B0FDQHKR4N

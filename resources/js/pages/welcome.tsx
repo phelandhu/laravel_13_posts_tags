@@ -1,4 +1,6 @@
 import React from "react";
+import ErrorBoundary from '../components/errorBoundary';
+import { config } from '@/config';
 import {
     BrowserRouter as Router,
     Routes,

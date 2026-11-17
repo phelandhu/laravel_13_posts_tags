@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import StoryTag from './Tag';
+import { config } from "@/config";
 
 function TagList() {
   const [tags, setTags] = useState([]);
@@ -9,7 +10,7 @@ function TagList() {
   useEffect(() => {
     const loadTags = async () => {
       setLoading(true);
-      const res = await axios.get("http://localhost:8000/api/tags");
+      const res = await axios.get(`${config.apiBaseUrl}/api/tags`);
       setTags(res.data);
       setLoading(false);
     };

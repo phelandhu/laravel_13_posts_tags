@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import story_list from '../../data/story_list.json';
 import StoryTag from './Tag';
+import { config } from "@/config";
 
 interface Story {
     id: number; // Unique identifier
@@ -19,7 +20,7 @@ function StoryList() {
   useEffect(() => {
     const loadStories = async () => {
       setLoading(true);
-      const res = await axios.get("http://localhost:8000/api/stories");
+      const res = await axios.get(`${config.apiBaseUrl}/api/stories`);
       setStories(res.data);
       setLoading(false);
     };
@@ -28,8 +29,7 @@ function StoryList() {
 
     return (
         <>
-            <div className="cards">                        
-                {console.log(stories.data)}
+            <div className="cards">
                 {
                 loading ? <p>Loading...</p> : Array.isArray(stories.data) && stories.data.map((story) => (
                 <article className="card" key={story.id}>
