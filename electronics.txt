@@ -51,6 +51,9 @@ https://www.amazon.com/dp/B0FMJH1XTB
 waveshare ESP32-S3 1.85inch Round Touch Display Development Board 360×360 Resolution 262K Color LCD Screen, 32-bit LX7 Dual-core Processor,Supports WiFi & Bluetooth
 https://www.amazon.com/dp/B0DK6NH65T
 
+ESP32-S3 2.1inch Capacitive Touch Round Display Board, 480×480, IPS, 32-bit LX7 Dual-core Processor, Supports WiFi & Bluetooth, 262K Color, 2.5D Curved Touch Panel @XYGStudy (ESP32-S3-Touch-LCD-2.1B)
+https://www.amazon.com/dp/B0F2M3YH9M
+
 Waveshare ESP32-S3 3.5inch Capacitive Touch Display Development Board Type B, 320×480 Pixels, IPS Panel, 262K Color, QSPI, Onboard Camera Interface, Supports Wi-Fi and Bluetooth 5, ESP32 with Display
 https://www.amazon.com/dp/B0FB2L8V8S
 
