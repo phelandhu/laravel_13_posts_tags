@@ -9,3 +9,10 @@ Harlock Saga Is A Stunning & Existential Adventure Through Space
 Kiba Is A Dark & Disturbing Deconstruction Of Family-Friendly Battle Anime
 SD Gundam Force Gives The Iconic Mecha Franchise A Silly Makeover
 D.I.C.E. Delivers Kid-Friendly Dino-Based Robot Battles
+
+
+https://stackoverflow.com/questions/40719951/how-to-use-react-router-with-laravel
+
+https://laracasts.com/discuss/channels/javascript/laravel-mix-solution-to-historyapifallback
+
+https://www.reddit.com/r/reactjs/comments/1xlo86x/best_way_to_structure_react_router_in_a_large/
