@@ -82,6 +82,86 @@ Controller980bb49ee7ae63891f1d891d2fbcf1c9.form = Controller980bb49ee7ae63891f1d
 /**
 * @see \Inertia\Controller::__invoke
 * @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+const Controller256bd316da50b30bb240fb5d05a8acc0 = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: Controller256bd316da50b30bb240fb5d05a8acc0.url(options),
+    method: 'get',
+})
+
+Controller256bd316da50b30bb240fb5d05a8acc0.definition = {
+    methods: ["get","head"],
+    url: '/students',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+Controller256bd316da50b30bb240fb5d05a8acc0.url = (options?: RouteQueryOptions) => {
+    return Controller256bd316da50b30bb240fb5d05a8acc0.definition.url + queryParams(options)
+}
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+Controller256bd316da50b30bb240fb5d05a8acc0.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: Controller256bd316da50b30bb240fb5d05a8acc0.url(options),
+    method: 'get',
+})
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+Controller256bd316da50b30bb240fb5d05a8acc0.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: Controller256bd316da50b30bb240fb5d05a8acc0.url(options),
+    method: 'head',
+})
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+const Controller256bd316da50b30bb240fb5d05a8acc0Form = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
+    action: Controller256bd316da50b30bb240fb5d05a8acc0.url(options),
+    method: 'get',
+})
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+Controller256bd316da50b30bb240fb5d05a8acc0Form.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
+    action: Controller256bd316da50b30bb240fb5d05a8acc0.url(options),
+    method: 'get',
+})
+
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
+* @route '/students'
+*/
+Controller256bd316da50b30bb240fb5d05a8acc0Form.head = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
+    action: Controller256bd316da50b30bb240fb5d05a8acc0.url({
+        [options?.mergeQuery ? 'mergeQuery' : 'query']: {
+            _method: 'HEAD',
+            ...(options?.query ?? options?.mergeQuery ?? {}),
+        }
+    }),
+    method: 'get',
+})
+
+Controller256bd316da50b30bb240fb5d05a8acc0.form = Controller256bd316da50b30bb240fb5d05a8acc0Form
+/**
+* @see \Inertia\Controller::__invoke
+* @see vendor/inertiajs/inertia-laravel/src/Controller.php:13
 * @route '/dashboard'
 */
 const Controller42a740574ecbfbac32f8cc353fc32db9 = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -242,12 +322,12 @@ Controllere19ee86e9cf603ce1a59a1ec5d21dec5.form = Controllere19ee86e9cf603ce1a59
 
 /**
 * Multiple routes resolve to \Inertia\Controller::Controller, so this export is a
-* dictionary keyed by URI rather than a callable, with the verbs prefixed where two routes share a URI.
-* Call a specific route with `Controller['<key>'](...)`, or import the route by name from your
-* generated `routes/` directory.
+* dictionary keyed by URI rather than a callable. Call a specific route with `Controller['<uri>'](...)`,
+* or import the route by name from your generated `routes/` directory.
 */
 const Controller = {
     '/': Controller980bb49ee7ae63891f1d891d2fbcf1c9,
+    '/students': Controller256bd316da50b30bb240fb5d05a8acc0,
     '/dashboard': Controller42a740574ecbfbac32f8cc353fc32db9,
     '/settings/appearance': Controllere19ee86e9cf603ce1a59a1ec5d21dec5,
 }
