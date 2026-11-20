@@ -31,6 +31,11 @@ class PostSeeder extends Seeder
             "post_id"=> $post->id, 
             "tag_id"=> $tagId
         ]);
+        $tagId = Tag::where('slug', 'hidden')->first()->id;
+        PostTag::factory()->create([
+            "post_id"=> $post->id, 
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '1',
             'title' => "Cthulhu Speaks",
@@ -70,13 +75,28 @@ class PostSeeder extends Seeder
             "post_id"=> $post->id, 
             "tag_id"=> $tagId
         ]);
+        $tagId = Tag::where('slug', 'historical-fiction')->first()->id;
+        PostTag::factory()->create([
+            "post_id"=> $post->id, 
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Martian", 
             "description" => "A stranded astronaut's struggle for survival on Mars", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id"=> $post->id, 
+            "tag_id"=> $tagId
+        ]);
         $tagId = Tag::where('slug', 'science-fiction')->first()->id;
+        PostTag::factory()->create([
+            "post_id"=> $post->id, 
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'young-adult')->first()->id;
         PostTag::factory()->create([
             "post_id"=> $post->id, 
             "tag_id"=> $tagId
@@ -137,7 +157,7 @@ class PostSeeder extends Seeder
         ]);
         $tagId = Tag::where('slug', 'young-adult')->first()->id;
         PostTag::factory()->create([
-            "post_id"=> $post->id, 
+            "post_id" => $post->id,
             "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
@@ -146,11 +166,31 @@ class PostSeeder extends Seeder
             "description" => "A classic novel about love and social class in Regency-era England", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'young-adult')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'historical-fiction')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id, 
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Odyssey", 
             "description" => "An epic poem about the journey of Odysseus after the Trojan War", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
+        ]);
+        $tagId = Tag::where('slug', 'fantasy')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
             'user_id' => '1',
@@ -158,11 +198,31 @@ class PostSeeder extends Seeder
             "description" => "An epic poem about the events of the Trojan War", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'fantasy')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Lord of the Rings", 
             "description" => "A high fantasy epic about the quest to destroy a powerful ring", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
+        ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'fantasy')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
             'user_id' => '1',
@@ -170,11 +230,31 @@ class PostSeeder extends Seeder
             "description" => "A prequel to The Lord of the Rings about Bilbo Baggins' journey", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'fantasy')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id, 
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Chronicles of Narnia", 
             "description" => "A series of fantasy novels about children who discover a magical world", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
+        ]);
+        $tagId = Tag::where('slug', 'adventure')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'fantasy')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
             'user_id' => '1',
@@ -182,11 +262,31 @@ class PostSeeder extends Seeder
             "description" => "A family becomes isolated in a haunted hotel during the winter", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'horror')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'thriller')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Silence of the Lambs", 
             "description" => "An FBI trainee seeks the help of a cannibalistic serial killer to catch another killer", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
+        ]);
+        $tagId = Tag::where('slug', 'thriller')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'mystery')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
             'user_id' => '1',
@@ -194,11 +294,31 @@ class PostSeeder extends Seeder
             "description" => "A journalist and a hacker investigate a wealthy family's dark secrets", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
         ]);
+        $tagId = Tag::where('slug', 'thriller')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'mystery')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
         $post = Post::factory()->create([
             'user_id' => '2',
             'title' => "The Da Vinci Code", 
             "description" => "A symbologist uncovers a conspiracy involving the Catholic Church", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc" 
+        ]);
+        $tagId = Tag::where('slug', 'thriller')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
+        ]);
+        $tagId = Tag::where('slug', 'mystery')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id"=> $tagId
         ]);
         $post = Post::factory()->create([
             'user_id' => '1',
@@ -206,5 +326,15 @@ class PostSeeder extends Seeder
             "description" => "A man with amnesia tries to discover his true identity while being pursued by assassins", 
             "body" => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc"
       ]);
+        $tagId = Tag::where('slug', 'thriller')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id" => $tagId
+        ]);
+        $tagId = Tag::where('slug', 'action')->first()->id;
+        PostTag::factory()->create([
+            "post_id" => $post->id,
+            "tag_id" => $tagId
+        ]);
     }
 }

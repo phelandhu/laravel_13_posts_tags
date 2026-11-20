@@ -31,6 +31,6 @@ class Post extends Model
 
     public function getFrontPageStories(): Collection
     {
-        return $this->tags()->where('is_active', true)->get(['id', 'title', 'description', 'body']);
+        return $this->tags()->where('is_active', true)->orderBy('title')->get(['id', 'title', 'description', 'body']);
     }
 }

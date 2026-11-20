@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from '@inertiajs/react'
 import axios from "axios";
 import story_list from '../../data/story_list.json';
 import StoryTag from './Tag';
@@ -34,7 +35,7 @@ function StoryList() {
                 loading ? <p>Loading...</p> : Array.isArray(stories.data) && stories.data.map((story) => (
                 <article className="card" key={story.id}>
                     <div>
-                        <span><a href={`/story/${story.id}`}>{story.title}</a></span> - {story.description}
+                        <span><Link href={`/story/${story.id}`}>{story.title}</Link></span> - {story.description}
                     </div>
                     {Array.isArray(story.tags) && story.tags.map((tag) => (
                         <StoryTag key={tag.id} tag={tag} />

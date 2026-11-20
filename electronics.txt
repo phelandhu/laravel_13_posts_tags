@@ -1,5 +1,3 @@
-
-
 ESP32 Breakout Board GPIO 1 into 2 Compatible with 30 Pins ESP32S ESP32
 https://www.amazon.com/dp/B0BNQ8V65G
 
@@ -48,6 +46,9 @@ https://www.amazon.com/dp/B0GTF7KPZJ
 Waveshare ESP32-P4-ETH High-Performance Development Board, Based On ESP32-P4, with 100 Mbps RJ45 Ethernet Port, Board Only, Standard Version
 https://www.amazon.com/dp/B0FMJH1XTB
 
+ESP32-S3 with 1.28inch Round LCD 240×240 Resolution ESP32 S3 Development Board with IPS Display, 32-bit LX7 Dual-Core Processor, GC9A01 Driver Chip, Supports W-i-F-i/Blue-too-th,Type-C Connector
+https://www.amazon.com/dp/B0D3QJD3BT
+
 waveshare ESP32-S3 1.85inch Round Touch Display Development Board 360×360 Resolution 262K Color LCD Screen, 32-bit LX7 Dual-core Processor,Supports WiFi & Bluetooth
 https://www.amazon.com/dp/B0DK6NH65T
 
@@ -57,12 +58,14 @@ https://www.amazon.com/dp/B0F2M3YH9M
 Waveshare ESP32-S3 3.5inch Capacitive Touch Display Development Board Type B, 320×480 Pixels, IPS Panel, 262K Color, QSPI, Onboard Camera Interface, Supports Wi-Fi and Bluetooth 5, ESP32 with Display
 https://www.amazon.com/dp/B0FB2L8V8S
 
+waveshare ESP32-S3 MCU Board with Onboard 1.28inch Touch Display and 6-Axis Sensor etc. 32-bit LX7 Dual-core Processor, Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5, Type-C Connector
+https://www.amazon.com/dp/B0CLZSHF5V
+
 Waveshare 4.3inch Capacitive Touch Display Compatible with Raspberry Pi 4B Comes with Protection Case 800×480 Resolution IPS Wide Angle MIPI DSI Interface
 https://www.amazon.com/dp/B08LH5MFVS
 
 Waveshare ESP32-S3 7inch Capacitive Touch Screen Development Board 800×480 Resolution 7 inch 65K RGB LCD Disply,5-Point Touch,Supports WiFi & Bluetooth
 https://www.amazon.com/dp/B0D6XSY476
-
 
 Audio DAC Hat Sound Card (Audio+V3) for Raspberry PI5 / PI4 / Pi Zero / PI3 / PI3B / PI3B+ / Better Quality Than USB
 https://www.amazon.com/dp/B09T33LJQM
@@ -75,3 +78,15 @@ https://www.amazon.com/dp/B0D5VBSKF4
 
 5-Pack Bluetooth 5.0 MP3 Decoder Board, USB-C, 12V
 https://www.amazon.com/dp/B0FDQHKR4N
+
+Voice Playback Module,16M Sound Board MP3 Music Player with Speaker,DC3.6-5.2V,USB Downloadable 10 IO Trigger Serial Port Control for Voice Prompts, Broadcast Device Factory, Xmas DIY-5 Pack
+https://www.amazon.com/dp/B0CP9GTCFN
+
+VAYDEER Volume Control Knob with One-Click Mute Function and 3 Volume Control Modes, USB Volume Knob Multimedia Controller for Win 7/8/10/Mac, Gift for Festivals Loved Ones
+https://www.amazon.com/dp/B08V95ZZLM
+
+USB Audio Module USB Sound Card External Audio Converter Compatible with Raspberry Pi/Jetson Nano, Support Recording and Playback, Stereo Codec, Plug and Play, Comes with 8Ω 5W Speaker
+https://www.amazon.com/dp/B0DY1L7PFV
+
+ShillehTek Pre-soldered 3.5mm Stereo Audio Jack Breakout Board – TRRS Headphone/Video Jack Module for Arduino, Raspberry Pi, Audio Projects, DIY Electronics, Sound Modules (1pc) - Soldered Module
+https://www.amazon.com/dp/B0F2DYG3P8
