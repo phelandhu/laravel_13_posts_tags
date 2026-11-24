@@ -22,6 +22,12 @@ https://www.amazon.com/dp/B0D2P1XPGM
 ESP32 Development Board 3.5" LCD Display Screen 320X480 Resolution ESP32-32 WiFi Smart Display Screen 3.5inch LCD TFT Module Resistive Touch for Arduino IDE, ESP IDE, Micropython and Mixly
 https://www.amazon.com/dp/B0D8TC4RM8
 
+2 Pack WT32-ETH01 ESP32 Module Ethernet WiFi Bluetooth Development Board WT32-ETH01 Embedded Serial Port to Ethernet Converter Serial to WiFi&Bluetooth MCU Module
+https://www.amazon.com/dp/B09V4TFNY7
+
+LILYGO T-Display-S3 ESP32-S3 TTGO Development Board
+https://www.amazon.com/dp/B0C2T6DP5J
+
 2 in 1 Bluetooth V5.3 Transmitter Receiver, BT USB Adapter
 https://www.amazon.com/dp/B0BKGXFJY4
 
@@ -90,3 +96,24 @@ https://www.amazon.com/dp/B0DY1L7PFV
 
 ShillehTek Pre-soldered 3.5mm Stereo Audio Jack Breakout Board – TRRS Headphone/Video Jack Module for Arduino, Raspberry Pi, Audio Projects, DIY Electronics, Sound Modules (1pc) - Soldered Module
 https://www.amazon.com/dp/B0F2DYG3P8
+
+LILYGO T-Display-S3 ESP32-S3 TTGO Development Board
+https://www.amazon.com/dp/B0BLNKPL25
+
+Arduino Nano ESP32 Without Headers [ABX00092] - ESP32-S3, USB-C, Wi-Fi, Bluetooth, HID Support, MicroPython Compatible for IoT & Embedded Applications
+https://www.amazon.com/dp/B0C947C9QS
+
+Waveshare ESP32-S3 Microcontroller, 2.4GHz Wi-Fi Development Board, 240MHz Dual Core Processor, ESP32-S3-WROOM-1 Module, 16MB Flash, with Pre-soldered Header
+https://www.amazon.com/dp/B0DK4QTMXC
+
+Seeed Studio XIAO ESP32-S3 Sense Board with Camera & Microphone
+https://www.amazon.com/dp/B0C69FFVHH
+
+ESP32-S3 1.47inch Display Development Board, 172×320 Pixels, 262K Color, Dual-Core Processor Up to 240MHz Frequency, Supports Wi-F-i & Blue-Too-th with Colorful RGB LED, ESP32 with Display
+https://www.amazon.com/dp/B0DJW4N962
+
+
+
+https://www.densitron.com/displays-computers
+
+https://connots.com/products/%F0%9F%94%A5men%27s-ripstop-work-pants-water-resistant-outdoor-tactical-pants

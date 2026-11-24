@@ -1,7 +1,7 @@
 import { queryParams, type RouteQueryOptions, type RouteDefinition, type RouteFormDefinition, applyUrlDefaults } from './../../../../wayfinder'
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 const front_tags185d28487d46d560548c277b2c1f59b8 = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -16,7 +16,7 @@ front_tags185d28487d46d560548c277b2c1f59b8.definition = {
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 front_tags185d28487d46d560548c277b2c1f59b8.url = (options?: RouteQueryOptions) => {
@@ -25,7 +25,7 @@ front_tags185d28487d46d560548c277b2c1f59b8.url = (options?: RouteQueryOptions) =
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 front_tags185d28487d46d560548c277b2c1f59b8.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -35,7 +35,7 @@ front_tags185d28487d46d560548c277b2c1f59b8.get = (options?: RouteQueryOptions): 
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 front_tags185d28487d46d560548c277b2c1f59b8.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
@@ -45,7 +45,7 @@ front_tags185d28487d46d560548c277b2c1f59b8.head = (options?: RouteQueryOptions):
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 const front_tags185d28487d46d560548c277b2c1f59b8Form = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -55,7 +55,7 @@ const front_tags185d28487d46d560548c277b2c1f59b8Form = (options?: RouteQueryOpti
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 front_tags185d28487d46d560548c277b2c1f59b8Form.get = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -65,7 +65,7 @@ front_tags185d28487d46d560548c277b2c1f59b8Form.get = (options?: RouteQueryOption
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags'
 */
 front_tags185d28487d46d560548c277b2c1f59b8Form.head = (options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -81,7 +81,7 @@ front_tags185d28487d46d560548c277b2c1f59b8Form.head = (options?: RouteQueryOptio
 front_tags185d28487d46d560548c277b2c1f59b8.form = front_tags185d28487d46d560548c277b2c1f59b8Form
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 const front_tagsaaed48733cbaabccdb0ef2611b71f3bb = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -96,7 +96,7 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.definition = {
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 front_tagsaaed48733cbaabccdb0ef2611b71f3bb.url = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions) => {
@@ -123,7 +123,7 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.url = (args: { id: string | number } 
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 front_tagsaaed48733cbaabccdb0ef2611b71f3bb.get = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteDefinition<'get'> => ({
@@ -133,7 +133,7 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.get = (args: { id: string | number } 
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 front_tagsaaed48733cbaabccdb0ef2611b71f3bb.head = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteDefinition<'head'> => ({
@@ -143,7 +143,7 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.head = (args: { id: string | number }
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 const front_tagsaaed48733cbaabccdb0ef2611b71f3bbForm = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -153,7 +153,7 @@ const front_tagsaaed48733cbaabccdb0ef2611b71f3bbForm = (args: { id: string | num
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 front_tagsaaed48733cbaabccdb0ef2611b71f3bbForm.get = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -163,7 +163,7 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bbForm.get = (args: { id: string | numbe
 
 /**
 * @see \App\Http\Controllers\TagController::front_tags
-* @see app/Http/Controllers/TagController.php:11
+* @see app/Http/Controllers/TagController.php:0
 * @route '/api/tags/{id}'
 */
 front_tagsaaed48733cbaabccdb0ef2611b71f3bbForm.head = (args: { id: string | number } | [id: string | number ] | string | number, options?: RouteQueryOptions): RouteFormDefinition<'get'> => ({
@@ -180,8 +180,9 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.form = front_tagsaaed48733cbaabccdb0e
 
 /**
 * Multiple routes resolve to \App\Http\Controllers\TagController::front_tags, so this export is a
-* dictionary keyed by URI rather than a callable. Call a specific route with `front_tags['<uri>'](...)`,
-* or import the route by name from your generated `routes/` directory.
+* dictionary keyed by URI rather than a callable, with the verbs prefixed where two routes share a URI.
+* Call a specific route with `front_tags['<key>'](...)`, or import the route by name from your
+* generated `routes/` directory.
 */
 export const front_tags = {
     '/api/tags': front_tags185d28487d46d560548c277b2c1f59b8,

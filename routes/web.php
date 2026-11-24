@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -24,5 +25,10 @@ Route::inertia('/students', 'Students/Index', [
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('dashboard', 'dashboard')->name('dashboard');
 });
+
+Route::resource('posts', PostController::class);
+//Route::inertia('/posts/{id}/show', PostController->show);
+
+Route::resource('stories', StoryController::class);
 
 require __DIR__.'/settings.php';
