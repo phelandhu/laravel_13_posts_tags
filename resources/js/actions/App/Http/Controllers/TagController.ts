@@ -180,9 +180,8 @@ front_tagsaaed48733cbaabccdb0ef2611b71f3bb.form = front_tagsaaed48733cbaabccdb0e
 
 /**
 * Multiple routes resolve to \App\Http\Controllers\TagController::front_tags, so this export is a
-* dictionary keyed by URI rather than a callable, with the verbs prefixed where two routes share a URI.
-* Call a specific route with `front_tags['<key>'](...)`, or import the route by name from your
-* generated `routes/` directory.
+* dictionary keyed by URI rather than a callable. Call a specific route with `front_tags['<uri>'](...)`,
+* or import the route by name from your generated `routes/` directory.
 */
 export const front_tags = {
     '/api/tags': front_tags185d28487d46d560548c277b2c1f59b8,

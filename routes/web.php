@@ -4,15 +4,15 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::inertia('/', 'welcome')->name('home');
-
+/*
 Route::get('/stories', function () {
     return Inertia::render('Stories/Index');
 })->name('stories.index');
-
+/*
 Route::get('/tags/{id}', function ($id) {
     return Inertia::render('Tags/Index');
 })->name('stories.index');
-
+*/
 Route::inertia('/', 'welcome')->name('home');
 
 Route::inertia('/students', 'Students/Index', [
